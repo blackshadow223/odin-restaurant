@@ -1,0 +1,20 @@
+{
+  "name": "odin-restaurant",
+  "version": "1.0.0",
+  "description": "Project Restaurant Page by The Odin Project",
+  "homepage": "https://github.com/blackshadow223/odin-restaurant#readme",
+  "bugs": {
+    "url": "https://github.com/blackshadow223/odin-restaurant/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blackshadow223/odin-restaurant.git"
+  },
+  "license": "ISC",
+  "author": "Black Shadow",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
