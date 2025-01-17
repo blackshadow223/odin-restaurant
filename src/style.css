@@ -88,6 +88,36 @@ a:visited {
 .desc {
     font-size: 24px;
 }
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 16px;
+}
+
+.card {
+    display: flex;
+    gap: 12px;
+}
+
+.card-image {
+    width: 100px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.card-text {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.card-name {
+    display: flex;
+    justify-content: space-between;
+}
+
+
 #footer {
     display: flex;
     justify-content: center;
