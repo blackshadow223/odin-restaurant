@@ -1,5 +1,6 @@
 import "./style.css";
 import createHome from "./components/home/home.js";
+import createAbout from "./components/about/about.js";
 
 
 class App {
@@ -48,12 +49,19 @@ class App {
             // Switch to Relevant Tab
             if (event.target.id === "home") {
                 this.#switchToHome();
+            } else if (event.target.id === "menu") {
+                this.#switchToMenu();
             }
         }
     }
 
     #switchToHome() {
         this.#activeTabContents = createHome();
+        this.#render();
+    }
+
+    #switchToAbout() {
+        this.#activeTabContents = createAbout();
         this.#render();
     }
 }
