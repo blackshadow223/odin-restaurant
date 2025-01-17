@@ -20,4 +20,68 @@ body {
 
     padding: 16px;
 }
+
+a:link {
+    color: inherit;
+}
+
+a:hover {
+    color: aquamarine;
+    text-decoration: none;
+}
+
+a:visited {
+    color: aqua;
+}
+
+#header,
+#footer {
+    font-size: 24px;
+    background-color: rgba(0, 0, 0, 65%);
+    padding: 16px;
+}
+
+.nav {
+    display: flex;
+    gap: 16px;
+}
+
+.nav-button {
+    font-size: inherit;
+    font-family: inherit;
+    color: inherit;
+    background-color: transparent;
+    padding: 8px;
+    border: none;
+    border-bottom: 1px solid transparent;
+    cursor: pointer;
+    transition: .3s border-bottom ease, .05s transform ease;
+    flex: 1;
+}
+
+.nav-button.active {
+    border-bottom-color: white;
+}
+
+.nav-button:hover {
+    border-bottom-color: white;
+}
+
+.nav-button:active {
+    transform: translateY(2px);
+}
+
+
+#content {
+    width: 70vw;
+    min-height: 70vh;
+    background-color: rgba(0, 0, 0, .6);
+    margin: 16px;
+    padding: 16px;
+}
+
+#footer {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
 }
