@@ -80,6 +80,14 @@ a:visited {
     padding: 16px;
 }
 
+.wrapper {
+    display: grid;
+    gap: 48px;
+}
+
+.desc {
+    font-size: 24px;
+}
 #footer {
     display: flex;
     justify-content: center;
